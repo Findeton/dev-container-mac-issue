@@ -1,0 +1,17 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
+// https://github.com/microsoft/vscode-dev-containers/tree/master/containers/docker-existing-dockerfile
+{
+	"name": "dev-container-mac-issue",
+	"dockerFile": "Dockerfile",
+	"containerEnv": {
+		"PROJECT_DIR": "${containerWorkspaceFolder}"
+	},
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"userEnvProbe": "loginShell",
+  
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+	]
+  }
