@@ -6,6 +6,7 @@
 	"containerEnv": {
 		"PROJECT_DIR": "${containerWorkspaceFolder}"
 	},
+	//"runArgs": ["--platform linux/amd64"],
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
